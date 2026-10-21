@@ -73,3 +73,25 @@ http://localhost:3000
 - `main.js` — servidor principal e lógica OAuth2/RBAC
 - `package.json` — dependências e scripts do projeto
 - `.env` — variáveis sensíveis do ambiente
+
+## Como foi implementado
+
+Código gerado com o `Gemini AI`, da Google. O modelo utilizado foi o `Argon` com nível de raciocínio no máximo. O prompt foi usado na mesma conversa da atividade 1, onde implementamos o RBAC.
+
+Prompt usado:
+
+```
+"Atividade 2 - OAuth2
+
+
+
+Nesta prática vamos unir a Autenticação (com oAuth2) e a Autorização (RBAC).
+
+
+
+1) Para esta prática você deverá configurar a autenticação via OAuth2 do Google para um usuário.
+
+2) Realizado esse passo você deve inserir no fluxo (após autenticação pelo Google) o conceito de RBAC (para autorização), conforme algum atributo recebido da autenticação do cliente, e exibir o resultado desse controle de acesso na página autenticada. "
+```
+
+A IA gerou o código condensado em apenas um arquivo, então organizei manualmente. Para ver o código cru gerado, basta acessar o primeiro commit do repositório.
